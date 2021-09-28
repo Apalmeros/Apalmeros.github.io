@@ -1,0 +1,78 @@
+.resume-header h1
+{
+    color: rgb(245, 193, 49);
+	font-size: 40px;
+	-webkit-text-stroke: 1px #282828;
+	text-shadow: 0px 4px 4px black;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(245, 193, 49);
+}
+
+.lu-img
+{
+    display: block;
+    height: 200px;
+    width: 200px;
+    size: calc(0.5em + .8vmin);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.desc
+{
+    color:white;
+    font-size: calc(0.5em + .8vmin);
+    list-style: none;
+    margin-top: 100px;
+    margin-right: 10px;
+    text-align: center;
+}
+.wf-img
+{
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stt-img
+{
+    display: block;
+    height: 170px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mv-img
+{
+    display: block;
+    height: 170px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.resume-wf span
+{
+    color:rgb(245, 193, 49);
+    border-bottom: 1px solid rgb(245, 193, 49);
+}
+.resume-lu span
+{
+    color:rgb(245, 193, 49);
+    border-bottom: 1px solid rgb(245, 193, 49);
+}
+.resume-stt span
+{
+    color:rgb(245, 193, 49);
+    border-bottom: 1px solid rgb(245, 193, 49);
+}
+.resume-mv span
+{
+    color:rgb(245, 193, 49);
+    border-bottom: 1px solid rgb(245, 193, 49);
+}

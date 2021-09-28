@@ -6,8 +6,31 @@
 	<title>Portfolio Webiste</title>
 	<link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/fun.css">
 </head>
 <body>
+    <!--Drop Down Menu-->
+    <div class="title-bar show-for-small-only" data-responsive-toggle="mobile-menu" data-hide-for="large">
+        <button class="menu-icon" type="button" data-toggle></button>
+        <div class="title-bar-title">Menu</div>
+    </div>
+    
+    <div class="top-bar show-for-small-only" id="mobile-menu">
+        <div class="mobile-bar">
+          <ul class="vertical menu">
+            <li class="menu-text">Antonio Palmeros</li>
+            <li>
+              <ul class="menu vertical">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="fun.html">Fun Stuff</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <!-- Contact Info Bar -->
     <div class="contact-info-bar hide-for-small-only" >
         <div class="grid-x">
             <div class="cell large-12 medium-12">
@@ -20,7 +43,7 @@
         </div>
     </div>
 
-    <div class="top-bar">
+    <div class="top-bar hide-for-small-only">
         <div class="top-bar-left">
             <h1><span>Antonio<br>Palmeros</span></h1>
         </div>
@@ -33,7 +56,67 @@
             </ul>
         </div>
     </div>
-
+    <!--Fun Content-->
+    <div class="resume-header">
+        <div class="grid-x">
+            <div class="cell large-12">
+                <h1>
+                    Fun Stuff
+                </h1>
+            </div>
+        </div>
+    </div>
+    <div class="resume-lu">
+        <div class="grid-x">
+            <div class= "cell large-6">
+                <img class="lu-img" src="images/lu.png"/>
+            </div>
+            <div class="cell large-6">
+                <ul class= "desc">
+                    <li>
+                        <span>Project 1</span>
+                    </li>
+                    <li>
+                        Description here.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="resume-lu">
+        <div class="grid-x">
+            <div class= "cell large-6">
+                <img class="lu-img" src="images/lu.png"/>
+            </div>
+            <div class="cell large-6">
+                <ul class= "desc">
+                    <li>
+                        <span>Project 2</span>
+                    </li>
+                    <li>
+                        Description here.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="resume-lu">
+        <div class="grid-x">
+            <div class= "cell large-6">
+                <img class="lu-img" src="images/lu.png"/>
+            </div>
+            <div class="cell large-6">
+                <ul class= "desc">
+                    <li>
+                        <span>Project 3</span>
+                    </li>
+                    <li>
+                        Description here.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <!-- include before closing </body> tag -->
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/vendor.js"></script>
