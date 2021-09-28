@@ -9,7 +9,18 @@
 </head>
 <body>
     <!--Drop Down Menu-->
-    
+<div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+        <span aria-hidden="true">&times;</span>
+    </button>
+        <ul class="menu vertical">
+            <li><a href="#" >Link</a></li>
+            <li><a href="#" >Link</a></li>
+            <li><a href="#" >Link</a></li>
+            <li><a href="#" >Link</a></li>
+        </ul>
+    </div>
+    <div class="off-canvas-content" data-off-canvas-content>
     <!-- Contact Info Bar -->
     <div class="contact-info-bar hide-for-small-only" >
         <div class="grid-x">
@@ -61,6 +72,7 @@
             </div>
         </div>
     </div>
+</div>
     <!-- include before closing </body> tag -->
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/vendor.js"></script>
