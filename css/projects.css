@@ -12,12 +12,15 @@
 .lu-img
 {
     display: block;
+    /*
     height: 200px;
     width: 200px;
+    */
     size: calc(0.5em + .8vmin);
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 .desc
 {
@@ -31,8 +34,10 @@
 .wf-img
 {
     display: block;
+    /*
     height: 200px;
     width: 200px;
+    */
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
